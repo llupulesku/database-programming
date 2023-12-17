@@ -1,0 +1,28 @@
+DROP TABLE ASSIGNMENT;
+
+CREATE TABLE ASSIGNMENT
+(
+    EID         char(3),
+    ELName      varchar(30),
+    EFName      varchar(30),
+    Project     char(3),
+    Hours       number(2)
+
+);
+
+INSERT INTO ASSIGNMENT VALUES ('550','Smith','Winston','101',15);
+INSERT INTO ASSIGNMENT VALUES ('550','Smith','Winston','252',10);
+INSERT INTO ASSIGNMENT VALUES ('601','Smith','Barney','252',5);
+INSERT INTO ASSIGNMENT VALUES ('390','Hammond','Evey','995',30);
+INSERT INTO ASSIGNMENT VALUES ('001','Preston','Bill','995',5);
+INSERT INTO ASSIGNMENT VALUES ('100','Logan','Ted','995',5);
+INSERT INTO ASSIGNMENT VALUES ('007','Bond','James','252',20);
+INSERT INTO ASSIGNMENT VALUES ('227','Prefect','Ford','101',15);
+INSERT INTO ASSIGNMENT VALUES ('227','Prefect','Ford','333',10);
+INSERT INTO ASSIGNMENT VALUES ('493','Dent','Arthur','252',10);
+INSERT INTO ASSIGNMENT VALUES ('505','Lane','Lois','101',10);
+INSERT INTO ASSIGNMENT VALUES ('505','Lane','Lois','252',10);
+INSERT INTO ASSIGNMENT VALUES ('505','Lane','Lois','333',10);
+INSERT INTO ASSIGNMENT VALUES ('505','Lane','Lois','995',10);
+
+commit;
